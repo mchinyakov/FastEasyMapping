@@ -8,7 +8,7 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => 'https://github.com/Yalantis/FastEasyMapping.git', :tag => '0.4.1' }
 
   spec.requires_arc = true
-  spec.ios.deployment_target = '7.0'
+  spec.ios.deployment_target = '6.0'
   spec.osx.deployment_target = '10.9'
   spec.frameworks = 'CoreData'
 
